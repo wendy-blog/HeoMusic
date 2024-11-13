@@ -1538,9 +1538,15 @@ legend {
   border-bottom: 0;
 }
 
-* {
+/* {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-tap-highlight-color: transparent;
+/*}*/
+* {
+  background-image: url('https://wendy-blog.github.io/link/images/background/background.jpg');
+  /* background-size: cover; /* 背景图片覆盖整个容器 */
+  /* background-repeat: no-repeat; 背景图片不重复 */
+  /* opacity: 1.5; /* 背景图片透明度 */
 }
 *:focus {
   outline: 0;
